@@ -1,0 +1,96 @@
+body {
+  height: auto;
+  width: 100%;
+  /*background-color: #415a77;*/
+  background-color: #000000;
+  font-family: "Rubik", sans-serif;
+  color: #000000;
+  background-image: url("https://img.elo7.com.br/product/zoom/23CAA8B/espelho-decorativo-emoji-safado-40x40cm-emoji.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: 1%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  width: 100%;
+  transform: translateX(-50%);
+}
+
+.container {
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title h1,
+h2,
+h3 {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.title h1 {
+  font-weight: 600;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media (max-width: 549px) {
+  .title h1 {
+    font-size: 2.8rem;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .title h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 550px) and (max-width: 999px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .title h3 {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  .title h1 {
+    font-size: 4rem;
+  }
+
+  .title h2 {
+    font-size: 2rem;
+  }
+
+  .title h3 {
+    font-size: 3rem;
+  }
+}
